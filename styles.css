@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+  }
+
+  .title{
+    font-family: "Rampart One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: white;
+  margin-bottom: 0;
+  }
+
+  .rule{
+    font-size: 18px;
+    color: white;
+    
+  }
+
+  .options{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 70px;
+  }
+  input, select {
+    width: 15%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: 4px solid #004db9;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 5px 5px 0 #004db9, 10px 10px 0 #72a0fb;
+  }
+  .output {
+    margin-top: 20px;
+    font-size: 18px;
+    display: none;
+  }
+  .output.visible {
+    display: block;
+
+    width: 15%;
+    border: solid white 0.5px;
+    color: white;
+  }
+
+  .convertButton{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: 4px solid #004db9;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 5px 5px 0 #004db9, 10px 10px 0 #72a0fb;
+  }
+
+  .convertButton:hover{
+    background-color: rgb(211, 230, 255);
+  }
